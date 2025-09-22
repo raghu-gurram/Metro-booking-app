@@ -1,0 +1,24 @@
+Question 4 . Containerize your maven project using docker
+context : I have build a maven project by changing changes to pom.xml from the repo https://github.com/anujyog1/MetroRepo.git. Now i want to containerize the project using docker.
+Help me do the follwing tasks.
+Give me a strcutured response answer all the following qquestion in the bewlo format
+1. Concise explanation amd reason of the problem.
+2. concise explanation of the solution .
+3. clear steps in to implement solution to fix the problem(No comments in code)
+4. how to implement this solution in my pc
+
+Questions/Tasks :
+1. Docker file creation
+2. Image building
+3. Push to docker hub
+4. Scenario based questions: 
+a. You want to containerize the metro booking system. Write the docker command to build an image named metro-booking-app.
+b. By default, your metro booking system runs on port 8080.Write docker command to run the container on 9090.
+c. You need to run multiple containers of the mtero booking system for testing. One should run on localhost:8081, another on localhost:8082.
+d. Your teammate pushed updates to docker file on the main branch. How will you update your local repo and rebuild the image with tag v2>
+e. You want to see the logs of the container named flight-booking. Which command will you use?
+f. The mtero booking system image is consuming too much space. Write the command to remove unused images.
+g. You want to update the metro booking system image with a new version. How do you remove the old container and run the updated one on the port 8085?
+h. The mtero booking system is crashing at startup. How do you enter the container's shell to debug the problem?
+i. your manager asks you to check which port the mtero booking system container is mapped tp. which docker command will you use?
+j. How do you stop a running container with ID cla2b3?

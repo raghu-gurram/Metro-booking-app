@@ -1,0 +1,13 @@
+Question 5. I have built a multi container setup for metro booking app
+now i want to write a docker-compose.yml file .
+Help me do the follwing tasks.
+Give me a strcutured response answer all the following qquestion in the bewlo format
+1. Concise explanation amd reason of the problem.
+2. concise explanation of the solution .
+3. clear steps in to implement solution to fix the problem(No comments in code)
+4. how to implement this solution in my pc
+
+Questions/Tasks :
+1. container 1 - Use the dfocker image you pushed to docker hub.
+2. Container 2 - configure a databse container (mysql/postgresql/mpongodb ensure both containers are runnig together)
+3. Demonstrate how to start services.
